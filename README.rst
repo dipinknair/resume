@@ -1,7 +1,9 @@
-My Resume Repository
-====================
+Resume generated through github actions
+======================================
 
 This repository contains my `Resume PDF file <Dipin_KN_Resume.pdf>`_  and its LaTeX format. I have used GitHub Actions workflow to generate a PDF and display it using GitHub Pages.
+
+`Link to resume page <https://dipinknair.github.io/resume/>`_
 
 Instructions
 ------------
