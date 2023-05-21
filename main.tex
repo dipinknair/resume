@@ -1,0 +1,267 @@
+%-------------------------
+% Resume in Latex
+% Author : Dipin Nair
+% License : MIT
+%------------------------
+
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{multicol}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+\usepackage{pifont}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+\urlstyle{same}
+
+
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.55in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{{#1}} & \textbf{{\small #2}} \\
+      
+      {#3} & {\small #4} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.9\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{{\small#1}} & \textbf{{\small #2}}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemiii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+  {\huge \textbf{Dipin Kunhambu Nair}} \\
+  \small \emph{+1 (513) 620-0022} \textbullet \href{mailto:dipinknair619@gmail.com}{dipinknair619@gmail.com} \textbullet
+  \href{https://linkedin.com/in/dipinknair619/}{LinkedIn} \textbullet
+  \href{https://github.com/dipinknair}{GitHub} \textbullet
+  Cincinnati, OH \\
+  \vspace{-10pt}
+\end{center}
+
+\vspace{-20pt}
+%-------------------
+\section{SUMMARY}
+{Software engineer with 5+ years of experience developing high-quality software solutions in C++, Python, and JavaScript. Proficient in Git, Visual Studio, and Microsoft Azure with strong problem-solving skills.}
+\vspace{-10pt}
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Cincinnati, Cincinnati}{January 2021 -- August 2023}
+      {Masters of Science in Mechanical Engineering}{GPA 4/4}
+  %resumeSubHeadingListEnd
+  \resumeSubHeadingListEnd
+  \vspace{-15pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Technology, Hyderabad}{August 2012 -- May 2016}
+      {Bachelor of Science in Mechanical Engineering}{GPA 8.24/10}
+  \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------PROGRAMMING SKILLS-----------
+% \color{CadetBlue
+\section{SKILLS}
+ \begin{itemize}[leftmargin=0.2in]
+    \small{\item{
+     \textbf{Languages}{: C/C++, Python, JavaScript, HTML, CSS, MATLAB, XML, SQL, \LaTeX }
+     \vspace{-5pt}
+     \item{\textbf{Tools}{: Visual Studio, VS Code, Version Control (Git), Microsoft Azure, Linux, MATLAB, ROS, Gazebo, Simulink}}
+     \vspace{-5pt}
+     \item{\textbf{CAE  }{: Ansys, Abaqus, SimLab, Hypermesh, UG NX}}
+    }}
+ \end{itemize}
+ \vspace{-18pt}
+
+%-----------EXPERIENCE-----------
+\section{PROFESSIONAL EXPERIENCE (5$+$ YEARS)}
+
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      {Ansys Inc.}{January 2023 -- April 2023}
+      {\underline{Software Developer Intern}}{Pittsburgh, Pennsylvania}
+      \vspace{-7pt}
+      \resumeItemListStart
+        \resumeItem{Worked with Linear Dynamics team for Adding new release features for ANSYS Mechanical Software}
+        \resumeItem{Made major contributions to code base after ensuring the code quality through Windows and Linux developer builds through Microsoft Azure and ARM test}
+        \resumeItem{Demonstrated expertise in applying Microsoft Component Object Model (COM) principles.}
+        \resumeItem{Worked closely with the test team to identify the bugs and created Technical Documentation for beta and release features}
+        \resumeItem{Participated in Scrum meeting to update the project progress and challenges}
+        
+
+      \resumeItemListEnd
+\vspace{-4pt}
+    \resumeSubheading
+      {Proctor \& Gamble (UC Simulation Center)}{August 2021 -- August 2022} 
+      {\underline{Robotics Software Engineer}}{Cincinnati, Ohio}
+      \vspace{-7pt}
+      \resumeItemListStart
+        \resumeItem{Automated process of determining fragrance consumption rates for test batches of more than 600 air fresheners}
+        \resumeItem{Deployed functionality for the robot to weigh, read QR code using computer vision, and upload data to Siemens server}
+        \resumeItem{Created and recommended Python-based GUI for customer interaction with the help of PyQT}
+
+      \resumeItemListEnd
+\vspace{-4pt}
+\resumeSubheading
+      {General Motors}{September 2016 -- November 2020}
+      {\underline{Senior Engineer}}{Bangalore, India}
+      \vspace{-7pt}
+      
+      \resumeItemListStart
+        \resumeItem{Automated Abaqus system modeling with VBA scripting and reduced 85 \% of man hours
+        }
+        \resumeItem{Executed projects in Transmissions (Manual, Automatic, EV \& Hybrid) and attended Engine tear-downs}
+        \resumeItem{Coordinated on adding 12 different efficiency modules in MASTA leveraging C++}
+        \resumeItem{Led a cross-functional team of 4 to automate meshing in SimLab software using JavaScript for simulation analysis}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-24pt}
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+\vspace{-8pt}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+            {\textbf{Classification of Rice using Soft Computing AI Techniques $($\href{https://link.springer.com/chapter/10.1007/978-3-031-16038-7_17}{Conference paper} $\vert$  \href{https://github.com/dipinknair/GFS_classification}{GitHub}$)$}}{June 2022}
+          \resumeItemListStart
+            \resumeItem{Constructed a Genetic Fuzzy Cascading system to classify 2 Rice varieties and presented research at NAFIPS conference}
+            \resumeItem{Analyzed methodology on 80 \% of 3810 data sets. Obtained Accuracy of 94.36 \% in validation set}
+            \resumeItem{Proposed method produced more accuracy than Linear regression, SVM, Multi-Layer Perceptron, and Decision Tree}
+          \resumeItemListEnd 
+          \vspace{-12pt}
+
+
+
+\vspace{-8pt}
+\resumeProjectHeading
+          {\textbf{Real-time Path Planning using Dijkstra and A* Algorithm (\href{https://github.com/dipinknair/PathPlanning_Djikstra}{GitHub})}} {April 2022}
+          \resumeItemListStart
+            \resumeItem{Devised a 2D rapidly changing environment and accomplished path planning avoiding moving obstacles}
+            \resumeItem{Collaborated with 2 other students to implement Dijsktra and A* algorithm using Python Object Oriented Programming}
+          \resumeItemListEnd
+          \vspace{-12pt}
+          
+\vspace{-8pt}       
+ \resumeProjectHeading
+          {\textbf{Mobile robot in Gazebo environment (\href{https://github.com/dipinknair/Gazebo_Mobile_robot}{GitHub})}} {December 2021}
+          \resumeItemListStart
+            \resumeItem{Generated a house with two instances of mobile robot Gazebo software and interacted with C++ plugins}
+          \resumeItemListEnd
+          \vspace{-12pt}
+  
+ \vspace{-8pt}         
+\resumeProjectHeading
+          {\textbf{Search area Optimization of Unmanned Aerial Vehicles (\href{https://github.com/dipinknair/Search_Area_Optimization}{GitHub})}} {April 2021}
+          \resumeItemListStart
+            \resumeItem{Optimized routes of 4 UAVs with  more than 20 waypoints with the aid of Particle Swarm and Ant Colony techniques in GPS-denied environment}
+          \resumeItemListEnd
+          \vspace{-12pt}
+
+
+
+\vspace{-8pt}
+\resumeProjectHeading{\textbf{Motion planning of Robot arm and Obstacle Avoidance }
+          }{April 2021}
+          \resumeItemListStart
+            \resumeItem{Formulated forward and inverse kinematics of robot manipulator with 6 DOF. An Artificial Potential field algorithm was employed to avoid obstacles}
+          \resumeItemListEnd 
+            \vspace{-4pt}
+            
+         
+          \resumeProjectHeading{          
+          \textbf{}}{}
+          
+    \resumeSubHeadingListEnd
+\vspace{-37pt}
+\end{document}
