@@ -6,6 +6,8 @@ on:
       - main
     paths:
       - 'main.tex'
+      - '.github/workflows/**'
+  workflow_dispatch:
 
 jobs:
   build:
