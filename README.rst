@@ -12,9 +12,6 @@ Instructions
 
 2. **Set up GitHub Pages:** In your forked repository, go to the "Settings" tab and scroll down to the "GitHub Pages" section. Select the `main` branch as the source and click "Save". GitHub Pages will now host your page which is basically index.html ( embedded pdf).Change the page url -> your github.io/resume . For more infor please see the picture below
 
-   .. image:: github_page_setup.jpg
-      :alt: GitHub Page Setup
-
 3. **Configure Actions Environment:** In your forked repository, go to the "Settings" tab and click on "Secrets" in the left sidebar. Add the following secrets:
 
    - `ACTOR`: The name of the PDF file. It will be in the format `name_Resume.pdf`.
