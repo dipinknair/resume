@@ -21,7 +21,10 @@ jobs:
         run: find $GITHUB_WORKSPACE -type f -name "*.pdf" -delete
 
       - name: Compile LaTeX document
-        run: docker run --rm -v ${{ github.workspace }}:/workspace -w /workspace texlive/texlive xelatex main.tex
+        run: |
+          sed -i 's/Helvetica/TeX Gyre Heros/g' main.tex
+          docker run --rm -v ${{ github.workspace }}:/workspace -w /workspace texlive/texlive xelatex main.tex
+          git restore main.tex
 
       - name: Move and rename PDF
         run: mv main.pdf $GITHUB_WORKSPACE/${{ secrets.ACTOR }}_Resume.pdf
